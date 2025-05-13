@@ -10,9 +10,9 @@ function App() {
     <StopwatchProvider> 
       <div className="App">
         <div className="link">
-          <NavLink to="/fulltime" className={({ isActive }) => (isActive ? 'active-link' : "")}>Fulltime</NavLink>
-          <NavLink to="/stopwatch" className={({ isActive }) => (isActive ? 'active-link' : "")}>Stopwatch</NavLink>
-          <NavLink to="/timer" className={({ isActive }) => (isActive ? 'active-link' : "")}>Timer</NavLink>
+          <NavLink to="/fulltime" className={({ isActive }) => (isActive ? 'active-link' : "")}>Saat</NavLink>
+          <NavLink to="/stopwatch" className={({ isActive }) => (isActive ? 'active-link' : "")}>Dayanan saat</NavLink>
+          <NavLink to="/timer" className={({ isActive }) => (isActive ? 'active-link' : "")}>Taymer</NavLink>
         </div>
         <Routes>
         <Route path="/" element={<Fulltime />} />
